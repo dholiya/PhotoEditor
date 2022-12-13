@@ -1,6 +1,5 @@
 This is just UI part of my project.
-all the logical code is in private repositoy.
-
+all the logical code is in private repository.
 
 //to implement extra module
 https://developer.android.com/jetpack/compose/graphics/images/customize
