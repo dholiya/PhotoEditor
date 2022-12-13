@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/faderange"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grayTrans"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    app:layout_constraintBottom_toTopOf="@+id/rvAlgo"
+    tools:ignore="MissingConstraints">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/slider1LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/slider1Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Smoothed"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:backgroundTint="@color/red"
+            android:value="0"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:haloColor="@color/grayLite"
+            app:labelStyle="@style/Tooltip"
+            app:thumbColor="@color/white"
+            app:thumbRadius="@dimen/thumbRadius"
+            app:trackColorActive="@color/white"
+            app:trackColorInactive="@color/grayLite"
+            app:trackHeight="@dimen/trackHeight" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/slider2LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/slider2Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Edges"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:backgroundTint="@color/red"
+            android:value="0"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:haloColor="@color/grayLite"
+            app:labelStyle="@style/Tooltip"
+            app:thumbColor="@color/white"
+            app:thumbRadius="@dimen/thumbRadius"
+            app:trackColorActive="@color/white"
+            app:trackColorInactive="@color/grayLite"
+            app:trackHeight="@dimen/trackHeight" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/slider3LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/slider3Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Smoothed"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:backgroundTint="@color/red"
+            android:value="0"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:haloColor="@color/grayLite"
+            app:labelStyle="@style/Tooltip"
+            app:thumbColor="@color/white"
+            app:thumbRadius="@dimen/thumbRadius"
+            app:trackColorActive="@color/white"
+            app:trackColorInactive="@color/grayLite"
+            app:trackHeight="@dimen/trackHeight" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

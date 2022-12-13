@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fragment.AdjustFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider"
+            android:layout_marginHorizontal="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stepSize="1"
+            android:value="0"
+            android:valueFrom="0"
+            android:valueTo="100"
+            app:haloColor="@color/grayLite"
+            app:labelStyle="@style/Tooltip"
+            app:thumbColor="@color/white"
+            app:thumbRadius="@dimen/thumbRadius"
+            app:thumbStrokeColor="@color/grayLite"
+            app:thumbStrokeWidth="1dp"
+            app:tickColor="@color/trans"
+            app:trackColorActive="@color/white"
+            app:trackColorInactive="@color/grayLite"
+            app:trackHeight="@dimen/trackHeight" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAdjust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/row_common" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>
