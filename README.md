@@ -3,9 +3,7 @@ This is just UI part of my project.
 All the logical code is in private repository.
 
 
-
-
-https://user-images.githubusercontent.com/39757587/207473770-b48d2842-d973-45c6-8633-43d54fd100b4.mp4
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/39757587/207474541-490fff6f-d767-4e91-baa4-a20a57d93809.gif)
 
 
 
