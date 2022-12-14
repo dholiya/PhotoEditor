@@ -2,6 +2,14 @@ This is just UI part of my project.
 
 All the logical code is in private repository.
 
+
+
+
+https://user-images.githubusercontent.com/39757587/207473770-b48d2842-d973-45c6-8633-43d54fd100b4.mp4
+
+
+
+
 //to implement extra module
 https://developer.android.com/jetpack/compose/graphics/images/customize
 https://developer.android.com/jetpack/compose/graphics/images/custompainter
